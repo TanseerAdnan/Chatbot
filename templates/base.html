@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>E.D.I.T.H BOT</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <div class="box">
+                    <img src="../static/images/4312.png" alt="">
+                    <p>E.D.I.T.H</p>
+                    <p style="font-size: 12px;">Chatbot</p>
+                </div>
+            </td>
+            <td>
+            </td>
+            <td>
+                <div class="header">
+                   <a href="">Home</a>
+                   <a href="/menu" target="_blank">Menu</a>
+                   <a href="">About</a>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <section class="box2">
+        <h3>Welcome To Restaurant</h3>
+        <h1>We have <span class="change_content"></span></h1>
+        <p><i>"Where every flavor tells a story"</i></p>
+    </section>
+    <br>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="{{ url_for('static', filename='images/Level3.png') }}" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Hi. My name is E.D.I.T.H. I am here to serve you..</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" id="myText" placeholder="Write a message...">
+                <button onclick="changePlaR()"  class="chatbox__send--footer rec__button"><img src="/static/images/i.png" alt="Rec"></button>
+                <button onclick="changePlaS()" class="chatbox__send--footer send__button"><img src="../static/images/send_btn.png" alt="send"></button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button onclick="myalert()"><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+        </div>
+    </div>
+</div>
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+    <script>
+        async function myalert() {
+            alert("Hello from the Team of E.D.I.T.H.\n " +
+                "We are trying our best to make things easy for you..\n" +
+                    "ROMAN is still in BETA!!!");
+        }
+        function changePlaR(document.getElementById("myText").placeholder = "Recording...",3000){
+
+        }
+        function changePlaS(){
+            document.getElementById("myText").placeholder = "Write a message...";
+        }
+    </script>
+</body>
+</html>

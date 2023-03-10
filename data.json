@@ -1,0 +1,1494 @@
+{"data": [
+    {
+        "tag": "greeting",
+
+        "patterns": ["Hi", 
+        "Hey", 
+        "Hello", 
+        "Good morning!", 
+        "Hey! Good morning", 
+        "Hey there", 
+        "Hey Janet", 
+        "Very good morning", 
+        "A very good morning to you", 
+        "Greeting", 
+        "Gracias",
+        "Hi",
+        "Whatsapp",
+        "Hi there",
+        "Greetings to you"],
+
+        "responses": ["Hello",  
+        "Hi there, how can I help?"]
+    },
+
+{
+        "tag": "salam",
+
+        "patterns": [
+                "assalamualaikum",
+                "asalam",
+                "asslalaikum",
+                "salalaikum",
+                "salam", 
+                "salmaalaikum",
+                "salam laikum",
+                "Assalamualakum",
+                "salamualaikum",
+                "asam alaikum",
+                "asaam laikum",
+                "asaam alaikum",
+                "saam alaikum",
+                "saam laikum",
+                "sala le kum",
+                "asa alaikum",
+                "assam-o-alaikum",
+                "saam-o-alaikum",
+                "salam",
+                "saam",
+                "assalamoalaikum",
+                "assalam-o-alaikum",
+                "assalam",
+                "alaikum",
+                "laikum",
+                "assalamalaikum",
+                "salamlaikum",
+                "asamalaikum",
+                "asaamlaikum",
+                "asaamalaikum",
+                "saamalaikum",
+                "saamlaikum",
+                "salalekum",
+                "asaalaikum"
+        ],
+
+        "responses": [
+                "walikumassalam"]
+},
+
+{
+        "tag": "Greet",
+
+        "patterns":[
+                "How are you?",
+                "Hello How are you ?",
+                "How are you doing?",
+                "What are you doing?",
+                "How do you do?",
+                "How are you doing?",
+                "Whatsapp??",
+                "Whats good?",
+                "How you doing?",
+                "What you doing?"
+        ],
+
+        "responses":[
+                "I am Fine !! Although I am a Machine :P"
+        ]
+},
+
+{
+
+        "tag": "kheriat",
+
+        "patterns": [
+                "kaise ho", 
+                "kia hal hain", 
+                "sab khair?",
+                "ghar pa sab theek?",
+                "kheriat h?",
+                "kese hain?",
+                "kese ho?",
+                "kya haal hain?",
+                "kia haal?"
+        ],
+
+        "responses": [
+                "ALhamdullilah main theek umeed hai ap bhi theek hongay"
+        ]
+},
+
+{
+        "tag": "Allah hafiz",
+         
+        "patterns": ["khuda hafiz",
+        "allah hafiz",
+        "allahhazif",
+        "tata",
+        "khudahafiz",
+        "khuda hafiz",
+        "chalo milte hain phir",
+        "chalo bye",
+        "hafiz",
+        "seeya",
+        "shabba khair"
+       
+],
+        "responses": ["Umeed hai apka din acha jai", 
+        "fi aman Allah",
+        "acha main ab chalta hun",
+        "Take care"]
+},
+
+{       "tag": "identity",
+
+        "patterns": [
+                "what is your name", 
+                "what does EDITH means", 
+                "whats your name?", 
+                "who are you", 
+                "Can i have your name please", 
+                "What is your naam?",
+                "What do you mean by edith?",
+                "What does your name mean?",
+                "name meaning?",
+                "naam?",
+                "Apka naam?",
+                "Apka naam kya h?",
+                "Why they call you edith?",
+                "Edith?",
+                "apke naam k mayene kya hain?",
+                "Apke naam ka matlab kya H?",
+                "naam ka matlab kya h?",
+                "apkay naam ka matlab kya H?",
+                "naam ka matlab?",
+                "apko edith q kehte?",
+                "name"],
+
+        "responses": ["You can call me E.D.I.T.H. (No Abbreviation!!)"]
+       },
+
+{       
+        "tag": "available_tables",
+
+        "patterns": [
+                "How many seats are available?", 
+                "Available seats", 
+                "How many tables are available?", 
+                "Available tables", 
+                "Are there any tables available?", 
+                "What is the capacity of the restaurant", 
+                "Are there any available tables?", 
+                "Are there any seats left?", 
+                "I wanted to know if there are any tables available now",
+                "Apke han seats availabe hain?",
+                "seats khali bachi hain?",
+                "bethne ki jaga h?",
+                "ape logon k pass bethne ki jaga h?",
+                "May I know if you have any tables which I can book?"],
+
+        "responses": ["yes we have available all the times, accept weekends you might have to wait a bit"]
+},
+
+{       "tag": "goodbye",
+
+        "patterns": ["cya", 
+                "I will leave now",
+                "See you later", 
+                "Goodbye", 
+                "Leaving now, Bye" , 
+                "Good bye dear", 
+                "Bye dear",
+                "I am Leaving", 
+                "Have a Good day", 
+                "cya later", 
+                "I gotta go now", 
+                "I gotta rush now", 
+                "Thank you, bye", 
+                "Bye", 
+                "Ok Bye", 
+                "Okay goodnight", 
+                "Have a good day ahead", 
+                "Have a great day", 
+                "Tata", 
+                "Take care"],
+
+        "responses": ["It's been my pleasure serving you!", 
+                "Hope to see you again soon! Goodbye!", 
+                "Bye! Hope to see you again!"]
+},
+
+{       "tag": "hours",
+
+        "patterns": [
+                "ape ka restaurant kholta kb h ?",
+                "ape ka restaurant band kb h ?",
+                "ape logon k han kb aya jaskta hai?",
+                "ape log kab tk hotay hain?",
+                "kab se kab tk kholtay hain ape log?",
+                "timings kya hain ape logon ki?",
+                "kya abhi khana mangwaskte hain?",
+                "when are you guys open", 
+                "what are your hours", 
+                "hours of operation", 
+                "hours", 
+                "what is the timing", 
+                "when are you open", 
+                "Are you open on all days?", 
+                "are you open now", 
+                "are you open on holidays", 
+                "are you guys open on all weekdays?", 
+                "working hours", 
+                "hours", 
+                "what are your working hours?"],
+
+        "responses": ["We are open 10am-12am Monday-Friday!"]
+},
+
+{       "tag": "menu",
+
+        "patterns": ["Id like to order something", 
+                "whats on the menu", 
+                "could i get something to eat", 
+                "Im damn hungry", 
+                "I am hungry" ,
+                "Can I have the menu, please?",
+                "Show me the menu", 
+                "What food do you have", 
+                "wHat food are you offering?", 
+                "whats on the menu today?", 
+                "Let me see the menu", 
+                "menu",
+                "khane mein kya hai apke pass?",
+                "khana kya hai",
+                "mjhe bhook lagrhi hai",
+                "what do yous guys have?",
+                "apke han khane mein kya hai?",
+                "apka menu kya h?",
+                "yr menu dikhana",
+                "ape logon ka menu kya h?",
+                "apke pass kya kya hai?",
+                "what do you guys serve?",
+                "ape kya serve krte hain khanay mein?",
+                "apke han khanay mein kya h?"
+            ],
+                
+        "responses": ["In our menu we have \n1.Burgers \n2.Fries \n3.Coffe \n4.Drinks \n5.Egg \n6.Steaks \n7.Oumlet \n8.Pizza",
+                    "For BreakFast we have\n1.Coffe \n2.Sandwich \n3.Oumlet \nFor Dinner we have\n1.Burgers \n2.Steaks \n3.Fries \n4.Drinks \n5.Pizza"]},
+    
+{
+        "tag": "breakfast",
+
+        "patterns": [ "nashtay mn kya hai?",
+        "apke han nashtay mein kya ?",
+        "what yo have for the breakfast?",
+        "apke han nashta kya hai ?",
+        "subah k khanay mein kya hai?",
+        "What do you guys have in menu for breakfast?",
+        "What do you guys have for breakfast?",
+        "Breakfast menu?",
+        "nashta?",
+        "Breakfast?"
+        ],
+
+        "responses": [
+            "\nFor BreakFast we have\n1.Coffe \n2.Sandwich \n3.Oumlet "
+        ]
+},
+
+{
+        "tag": "dinner",
+
+        "patterns": [ "What do you guys have in dinner?",
+        "what is in the Dinner?",
+        "Whats the dinner?",
+        "Dinner?",
+        "What do you guys have for dinner?",
+        "What do you guys provide for dinner?",
+        "raat k khanay mein kya h?",
+        "raat ka khana kya h?",
+        "raat ka menu?"
+        ],
+
+        "responses": [
+            "\nFor Dinner we have\n1.Burgers \n2.Steaks \n3.Fries \n4.Drinks"
+        ]
+},
+
+{
+        "tag": "coffee",
+
+        "patterns": [
+          "which type of coffee do you have",
+          "which types of coffee do you have",
+          "whats on the coffee",
+          "coffee",
+          "app kai pass konsi coffee hai",
+          "app kai pass konsi konsi coffee hai",
+          "kis flavour k coffee hain apke pass?",
+          "what kind of coffee do you guys have?",
+          "what are the coffee?",
+          "konse coffee hain apke pass?",
+          "kon kon se coffee hain apke pass?",
+          "what do you guys have in coffee?"
+        ],
+
+        "responses": [
+          "We have\n1. Moka Rs.200 \n2. Cappuccino Rs.300 \n3. Black Coffee Rs.400 \n4. Robusta Rs.350 "
+        ]
+},
+
+{
+        "tag": "burger",
+
+        "patterns": [
+                "which type of burger do you have",
+                "which types of burger do you have",
+                "whats on the burger",
+                "burger",
+                "app kai pass konsi burger hai",
+                "app kai pass konsi burger hai",
+                "kis flavour k burgers hain apke pass?",
+                "what kind of burgers do you guys have?",
+                "what are the burgers?",
+                "konse burgers hain apke pass?",
+                "kon kon se burgers hain apke pass?",
+                "what do you guys have in burgers?",
+                "burgers k kya prices hain?",
+                "sastay burgers suggest krein?",
+                "suggest me cheap burgers?"
+        ],
+
+        "responses": [
+                "We have\n1. Edith Special Burger Rs.600 \n2. Zinger Burger Rs.400 \n3. Beef Burger Rs.500 \n4. Chicken Burger Rs.300 "
+        ]
+},
+
+{
+        "tag": "sandwich",
+
+        "patterns": [
+                "which type of sandwich do you have",
+                "which types of sandwich do you have",
+                "whats on the sandwich",
+                "sandwich",
+                "app kai pass konsi sandwich hai",
+                "app kai pass konsi sandwich hai",
+                "kis flavour k sandwich hain apke pass?",
+                "what kind of sandwich do you guys have?",
+                "what are the sandwich?",
+                "konse sandwich hain apke pass?",
+                "kon kon se sandwich hain apke pass?",
+                "what do you guys have in sandwich?",
+                "apke pass club sandwich hain?",
+                "sandwich k kya prices hain?",
+                "sastay sandwich suggest krein?",
+                "suggest me cheap sandwich?"
+        ],
+
+        "responses": [
+                "We have\n1. Sandwich By Cafe Edith Rs.150 \n2. Dagwood Sandwich Rs.200 \n3. Super Grilled Sandwiches Rs.250 \n4. Club Sandwich Rs.400 "
+        ]
+},
+
+{
+        "tag": "steaks",
+
+        "patterns": [
+                "which type of steaks do you have",
+                "which types of steaks do you have",
+                "whats on the steaks",
+                "steaks",
+                "app kai pass konsai steaks hai",
+                "app kai pass konsai steaks hai",
+                "kis flavour k steaks hain apke pass?",
+                "what kind of steaks do you guys have?",
+                "what are the steaks?",
+                "konse steaks hain apke pass?",
+                "kon kon se steaks hain apke pass?",
+                "what do you guys have in steaks?",
+                "apke pass club steaks hain?",
+                "steaks k kya prices hain?",
+                "sastay steaks suggest krein?",
+                "suggest me cheap steaks?"
+        ],
+
+        "responses": [
+                "For Steaks We have(With Sauces Included)\n1. Edith Double Decker Steak Rs.800 \n2. Markhor Smoked Meat Rs.900 \n3. Grilled Beef Tenderloin Rs.1000 \n4. Filet Mignon Rs.1200 "
+        ]
+},
+
+{       
+        "tag": "sauces",
+
+        "patterns": [
+                "What kind of sauces do you have?",
+                "which type of sauces do you have",
+                "which types of sauces do you have",
+                "whats on the sauces",
+                "sauces",
+                "app kai pass konsai sauces hai",
+                "app kai pass konsai sauces hai",
+                "kis flavour k sauces hain apke pass?",
+                "what kind of sauces do you guys have?",
+                "what are the sauces?",
+                "konse sauces hain apke pass?",
+                "kon kon se sauces hain apke pass?",
+                "what do you guys have in sauces?",
+                "apke pass club sauces hain?",
+                "steak k sath kon kon se sauces hain?",
+                "sauces you have with steaks?",
+                "what do you guys have in sauces with steaks ?",
+                "sauces kon kon c hain apke pass?",
+                "and in sauces?",
+                "sauces k kya prices hain?",
+                "sastay sauces suggest krein?",
+                "suggest me cheap sauces?"
+        ],
+
+        "responses": [
+                "\nIn Sauces we have \n1.Mushroom Sauce \n2.Chipottle Sauce \n3.Barbeque Sauce (Sauces are only available with Steaks)"
+        ]
+},
+{
+        "tag": "drinks",
+
+        "patterns": [
+                "which type of drinks do you have",
+                "which types of drink do you have",
+                "What about drink",
+                "whats on the drinks",
+                "drinks",
+                "app kai pass konsi drinks hai",
+                "app kai pass konsi drinks hai",
+                "kis flavour k drinks hain apke pass?",
+                "what kind of drinks do you guys have?",
+                "what are the drinks?",
+                "konse drinks hain apke pass?",
+                "kon kon se drinks hain apke pass?",
+                "what do you guys have in drinks?",
+                "apke pass club drinks hain?",
+                "pepsi hai?",
+                "7up hai apke pass?",
+                "coca cola hai ?",
+                "drinks k kya prices hain?",
+                "sastay drinks suggest krein?",
+                "suggest me cheap drinks?"
+        ],
+
+        "responses": [
+                "We have\n1.Coca-Cola  Rs.100 \n2.Pepsi  Rs.100 \n3.Sprite  Rs.100 \n4.7up  Rs.100 \nWe don't have any Energy Drinks!"
+        ]
+},
+{
+        "tag": "omelette",
+
+        "patterns": [
+                "which type of omelette do you have",
+                "which types of omelette do you have",
+                "What about omelette",
+                "whats on the omelette",
+                "omelette",
+                "app kai pass konsai omelette hai",
+                "app kai pass konsai omelette hai",
+                "omelette mai kia hai",
+                "kis flavour k omelette hain apke pass?",
+                "what kind of omelette do you guys have?",
+                "what are the omelette?",
+                "konse omelette hain apke pass?",
+                "kon kon se omelette hain apke pass?",
+                "what do you guys have in omelette?",
+                "apke pass club omelette hain?",
+                "omelette k kya prices hain?",
+                "sastay omelette suggest krein?",
+                "suggest me cheap omelette?"
+        ],
+
+        "responses": [
+                "We have\n1. Simple Omelette with toasted Bread Rs.200 \n2. Omelette with Onion & Green Chili Rs.220 \n3. Masala Omelette Rs.250 \n4. Cheese Onion Omelette Rs.270 "
+        ]
+},
+{
+        "tag": "pizza",
+        "patterns": [
+                "which type of pizza do you have",
+                "which types of pizza do you have",
+                "What about pizza",
+                "whats on the pizza",
+                "pizza",
+                "pizza flavours",
+                "app kai pass konsai pizza hai",
+                "app kai pass konsai pizza hai",
+                "pizza mai kia hai",
+                "kis flavour k pizza hain apke pass?",
+                "what kind of pizza do you guys have?",
+                "what are the pizza?",
+                "konse pizza hain apke pass?",
+                "kon kon se pizza hain apke pass?",
+                "what do you guys have in pizza?",
+                "apke pass club pizza hain?",
+                "pizza k kya prices hain?",
+                "sastay pizza suggest krein?",
+                "suggest me cheap pizza?"
+
+        ],
+
+        "responses": [
+                "We have\n1. Pepperoni Rs.1200 \n2. Chicken Tikke Rs.1400 \n3. Cheesy Pizza Rs.1300 \n4. Afghani Tikka Rs.1200 (Only Thin Bread)"
+        ]
+},
+
+{
+        "tag": "cheap",
+
+        "patterns": [
+                "Sastay items konsay hain apke pass?",
+                "sastay mein kya h?",
+                "sasta?",
+                "sasta khana?",
+                "what do you guys have in cheap?",
+                "cheap dinner?",
+                "bugdet menu?",
+                "easy on pocket?",
+                "jaib per halka reh?",
+                "affordable?",
+                "affordable food?",
+                "kch sasta tu btayein?",
+                "sasta khana suggest krein?",
+                "affordable food?",
+                "best food in low price?",
+                "kam paisay mein kya kya hai?",
+                "kch sasta h?",
+                "kch halka dikhao yr?"
+        ],
+
+        "responses": [
+                "Bugdet Menu(Excluding Steaks $ Pizza): \n1. Moka Rs.200 \n2. Chicken Burger Rs.300 \n3. Sandwich By Cafe Edith Rs.150 \n4. Dagwood Sandwich Rs.200  \n5. Super Grilled Sandwiches Rs.250  \n6. Simple Omelette with toasted Bread Rs.200 \n7. Omelette with Onion & Green Chili Rs.220 "
+        ]
+},
+{       
+        "tag": "extra",
+        
+        "patterns": [
+                "samosa",
+                "ape logon k pass samosa h?",
+                "do you guys have smosa?",
+                "bbq",
+                "ape logon k pass bbq h?",
+                "do you guys have bbq?",
+                "tikka?",
+                "ape logon k pass bbq h?",
+                "do you guys have bbq?",
+                "paratha ?",
+                "ape logon k pass paratha h?",
+                "do you guys have paratha?",
+                "braost?",
+                "ape logon k pass braost h?",
+                "do you guys have braost?",
+                "fish?",
+                "ape logon k pass fish h?",
+                "do you guys have fish?",
+                "halwa puri?",
+                "ape logon k pass halwa h?",
+                "do you guys have halwa?",
+                "momos?",
+                "ape logon k pass halwa h?",
+                "do you guys have halwa?",
+                "roll?",
+                "ape logon k pass halwa h?",
+                "do you guys have halwa?",
+                "lachay wala paratha",
+                "ape logon k pass lachay wala paratha h?",
+                "do you guys have lachay wala paratha?",
+                "pathan ka paratha paratha?",
+                "ape logon k pass pathan ka paratha h?",
+                "do you guys have pathan ka paratha?",
+                "peetis",
+                "ape logon k pass pathan ka paratha h?",
+                "do you guys have pathan ka paratha?",
+                "shakes?",
+                "ape logon k pass shakes h?",
+                "do you guys have shakes?",
+                "salad?",
+                "ape logon k pass salad? h?",
+                "do you guys have salad?",
+                "dessert",
+                "ape logon k pass dessert?",
+                "do you guys have dessert?",
+                "mithai hai apke pass?",
+                "ape logon k pass mithai?",
+                "do you guys have mithai?",
+                "icecream?",
+                "ape logon k pass icecream?",
+                "do you guys have icecream?",
+                "cake?",
+                "ape logon k pass cake?",
+                "do you guys have cake?",
+                "biryani?",
+                "palao?",
+                "ape logon k pass biryani?",
+                "do you guys have biryani?",
+                "ape logon k pass palao?",
+                "do you guys have palao?",
+                "korma",
+                "ape logon k pass korma?",
+                "do you guys have korma?","onion rings?",
+                "ape logon k pass onion rings?",
+                "do you guys have onion rings?"
+        ],
+
+        "responses": [
+                "Sorry! We do not provide the following item. \\ Humare pass ye cheez dastiyab ni hai."
+        ]
+
+},
+
+{       "tag": "contact",
+
+        "patterns": [
+                "contact information", 
+        "how do we contact you", 
+        "how can i contact you", 
+        "can i get the contact details", 
+        "I wanna give some feedback", 
+        "how can i give some feedback?", 
+        "CAn you give me the contact of an executive?", 
+        "What is the help desk phone number?",
+        "Can you give me your number", 
+        "Can i get the customer care number?", 
+        "CAn I get help desk number",
+        "How can i get in contact?",
+        "whats your maail?",
+        "mail?",
+        "number?",
+        "How can i get in touch?",
+        "can i get in touch?",
+        "contact no?",
+        "whats your phone?",
+        "whats your conact?",
+        "whats your mail?",
+        "apse contact kse hoskta h?",
+        "apse raabta kese krskte?",
+        "raabta kese krein?",
+        "mail kese krein?",
+        "contact kese krein?",
+        "how can i conct?",
+        "contact?",
+        "kese krun contact?",
+        "kese krein contacT?",
+        "phone kese lagayein?",
+        "gmail?",
+        "can i mail you?",
+        "call ?",
+        "msg?",
+        "call kese krein?",
+        "call krskte hain?",
+        "phone kese krskte hain?",
+        "phone hai apka?",
+        "contact information"],
+        
+        "responses": [
+                "You can Contact us on BreakFastAndBurgers@gmail.com OR 0000-1234567"
+        ]
+},
+
+{       "tag": "address",
+
+        "patterns": [
+                "what is the location?",
+        "whats the location", 
+        "where are you located?",
+        "where is the restaurant located?",
+        "address", 
+        "whats the address?", 
+        "what is the address of the restaurant", 
+        "I am not able to locate you", 
+        "I cant find your location", 
+        "CAn i have the address of the restaurant", 
+        "how to reach there?", 
+        "Address?", 
+        "Location?",
+        "What is your Location",
+        "Where you guys located?",
+        "Where are you guys?",
+        "Where do yous operate?",
+        "Where is your branch?",
+        "Where are you?",
+        "Where are you guys?",
+        "Where is the branch?",
+        "branch?",
+        "Apka branch kahan hai?",
+        "ape log kahan hote hain?",
+        "ape log kidhar hain?",
+        "apka restaurant kidhar hai?",
+        "apki location kya hain?",
+        "apka address kya h?",
+        "ape log kahan hai?",
+        "kidhar hain?",
+        "kahan per hotay hain ape log?",
+        "ape log kidhar hote hain?",
+        "ape logon ki branch kahan kahan hai?",
+        "ape logo ki loacation kahan hain?",
+        "where do you guys situated?",
+        "ape log kahan situated hain?",
+        "address kahan ka hai apka?",
+        "what is the address of this restaurant?"],
+        
+        "responses": [
+                "Bahadrabad Street 2 Karachi."
+        ]
+},
+
+{       "tag": "positive_feedback",
+
+        "patterns": ["can u show some positive reviews?",
+        "good reviews?",
+        "Customer revieews?",
+        "show me reviews?",
+        "what do people think of yyour food?",
+        "does people like your food?",
+        "Apke han k reviews kese hain?",
+        "logon ko apka han ka khana psnd aata h?",
+        "do people like your food?",
+        "rating achi hain?",
+        "khana kesa hai apka?",
+        "loog kya kehte hain khanay k bare mein?",
+        "is your taste good?",
+        "rating kesi hai?",
+        "hygenic hai khana?",
+        "apka khana hygenic h?",
+        "is your food is hygenic show me revieews",
+        "clean food?",
+        "is your food tasty?",
+        "Apka khana kesa h?",
+        "apka khana tasty hai?",
+        "food maze ka h?",
+        "Apka khana kesa h?",
+        "apka khana tasty hai?",
+        "food maze ka h?",
+        "ratings?",
+        "food?",
+        "taste?",
+        "reviews?",
+        "Feedbacks?",
+        "show me customer feedbacks?",
+        "loog kya kehte hain?",
+        "Customer Experience?",
+        "can you show some more?"
+        ],
+    
+        "responses": [
+                "Anonymous Customer: the burgers were amazing",
+        "Anonymous Customer: the pizza were amazing",
+        "Anonymous Customer: Anonymous Customer: the steaks were amazing",
+        "Anonymous Customer: the omelette were amazing",
+        "Anonymous Customer: the drinks were amazing",
+        "Anonymous Customer: the fries were amazing",
+        "Anonymous Customer: the sandwich were amazing",
+        "Anonymous Customer: i loved the food", 
+        "Anonymous Customer: you did a good job", 
+        "Anonymous Customer: Great job",
+        "Anonymous Customer: Love the food", 
+        "Anonymous Customer: Really love it", 
+        "Anonymous Customer: Love the staff behavior", 
+        "Anonymous Customer: my son devoured the burgers",
+        "Anonymous Customer: pizza was so cheesy!", 
+        "Anonymous Customer: perfectly cooked",
+        "Anonymous Customer: we are very satisfied with the service", 
+        "Anonymous Customer: the burger was a real game changer", 
+        "Anonymous Customer: the omelette was a real game changer", 
+        "Anonymous Customer: the sandwich was a real game changer", 
+        "Anonymous Customer: the steaks was a real game changer", 
+        "Anonymous Customer: the fries was a real game changer", 
+        "Anonymous Customer: such delicious flavours", 
+        "Anonymous Customer: so glad we discovered this place", 
+        "Anonymous Customer: Me and my family is very satisfied with this service and food", 
+        "Anonymous Customer: Staff was good",
+        "Anonymous Customer: Anonymous Customer: excellent staff",
+        "Anonymous Customer: great chef",
+        "Anonymous Customer: great pizza",
+        "Anonymous Customer: great steaks",
+        "Anonymous Customer: great omelette",
+        "Anonymous Customer: great sandwich",
+        "Anonymous Customer: great burgers",
+        "Anonymous Customer: excellent staff",
+        "Anonymous Customer: excellent chef",
+        "Anonymous Customer: excellent pizza",
+        "Anonymous Customer: excellentt steaks",
+        "Anonymous Customer: excellent omelette",
+        "Anonymous Customer: excellent sandwich",
+        "Anonymous Customer: excellent burgers",
+        "Anonymous Customer: this place is awesome",
+        "Anonymous Customer: khana maze ka tha "
+        ]
+},
+
+{       
+        "tag": "negative-reviews",
+
+        "patterns":[
+                "can u show some negative reviews?",
+                "negative reviews?",
+                "negative ratings?",
+                "negative reviews?",
+                "negative revieews?",
+                "show me reviews?",
+                "what do people think of yyour food?",
+                "does people like your food?",
+                "Apke han k reviews kese hain?",
+                "loog kya kehte hain khanay k bare mein?",
+                "unhygenic hai khana?",
+                "apka khana unhygenic h?",
+                "is your food is unhygenic show me revieews",
+                "not clean food?",
+                "is your food not tasty?",
+                "can you show some more?"
+                
+        ],
+
+        "responses":[
+        "Anonymous Customer: what is wrong with these burgers?", 
+        "Anonymous Customer: The burgers was so undercooked", 
+        "Anonymous Customer: The pizze was so undercooked", 
+        "Anonymous Customer: The steak was so undercooked", 
+        "Anonymous Customer: The breakfast was so undercooked",
+        "Anonymous Customer: dinner was bad",
+        "Anonymous Customer: breakfast was bad",
+        "Anonymous Customer: bad food",
+        "Anonymous Customer: Ew such a waste of money man", 
+        "Anonymous Customer: Prices are too high honestly", 
+        "Anonymous Customer: I hate the menu, such less options",
+        "Anonymous Customer: too salty", "we were served cold food", 
+        "Anonymous Customer: so disappointed", "the food is pathetic",
+        "Anonymous Customer: hate it", 
+        "Anonymous Customer: my wife hates the food",
+        "Anonymous Customer: eww", 
+        "Anonymous Customer: hate the staff behavior",
+        "Anonymous Customer: i hate it", 
+        "Anonymous Customer: hate the service",
+        "Anonymous Customer: please train the staff properly",
+        "Anonymous Customer: This was such a waste of money", 
+        "Anonymous Customer: Hate the staff", 
+        "Anonymous Customer: Extremely dissatisfied", 
+        "Anonymous Customer: disappointed", 
+        "Anonymous Customer: so bad", 
+        "Anonymous Customer: very bad",
+        "Anonymous Customer: disgusting food"
+        ]
+},
+
+{
+        "tag": "ambiance",
+
+        "patterns":[
+                "ambiance?",
+                "hows the place?",
+                "whats the ambiance?",
+                "whats the atmosphere?",
+                "tell me about our ambiance?",
+                "what about the ambiance?",
+                "is your restautant have a good ambiance??"
+        ],
+
+        "responses":[
+                "Our Ambiance Is Very Classic and gives the feel of any modern-day Restaurant."
+        ]
+},
+
+{
+        "tag": "jaga",
+
+        "patterns":[
+                "mahool kesa h?",
+                "jaga kesi h?",
+                "restaurant kesa h?",
+                "atmosphere kesa h?",
+                "jaga achi h?"
+        ],
+
+        "responses":[
+                "Hamare Restaurant ka mahool bhot e acha hai"
+        ]
+},
+
+{
+        "tag": "family-friendly",
+
+        "patterns":[
+                "Is your restautant family friendly",
+                "do you guys provide family atmosphere?",
+                "do you guys have family space?",
+                "Does your restaurant have family place?",
+                "family friendly environment?",
+                "what kind of people eats in your restaurant?",
+                "Do you guys have family environment?"
+        ],
+
+        "responses":[
+                "Breakfast And Burgers have a serperate floor for the Families :)"
+        ]
+
+},
+
+{
+        "tag": "friendly",
+
+        "patterns":[
+                "ape logon k han family section h?",
+                "family ki jaga h?",
+                "family k sath askte hain?",
+                "family k bethne ki jaga h?",
+                "apke han loog kese atay hain?",
+                "apka mahool family k laiq hai?",
+                "family k sath askte hain?"
+        ],
+
+        "responses":[
+                "Jee han hamare han family k liye alag se jaga hai :)"
+        ]
+},
+
+{       
+        "tag": "sanitation",
+
+        "patterns": [
+                "kya apke han sop follow hotay hain?",
+                "kya apke han covid saftey hai?",
+                "kya apka staff vacinated h?",
+                "is it really safe to eat here?",
+                "Could you tell your COVID safety protocols?", 
+                "I would like to know about the cleanliness of the restaurant", 
+                "Please share your sanitization process", 
+                "I am concerned about the COVID related sanitization",
+                "Is it safe to eat out in this pandemic?", 
+                "are you clean", 
+                "i am concerned about the cleanliness"],
+        
+        "responses": ["I understand your concern. Here are the WHO recommended COVID protocols we follow to ensure your safety: \n 1. All our staff are double masked 24x7. \n 2. All our staff is checked for fevers and other symptoms daily. \n 3. All surfaces are frequently sanitized. \n 4. We use this friendly bot to reduce physical closeness to the least!"
+        ]
+},
+
+{       
+        "tag": "offers",
+
+        "patterns": ["Could you tell me the pocket friendly options?",
+        "Are there any discounts going on?", 
+        "Are there any special offers today?", 
+        "What about the festive offers?",
+        "Could you please tell me which foods are on discount?", 
+        "are there any discounts", 
+        "are there any discount offers", 
+        "do you have any offers?", 
+        "what are the offers going on?", 
+        "what are the discounts available?"],
+        
+        "responses": ["No we dont have any offers right now",
+        "Sorry sir we dont have any right now"
+        ]
+},
+
+{       
+        "tag": "vegan_enquiry",
+
+        "patterns": ["Can I see the vegan option?",
+        "Do you have any vegan options??", 
+        "What is vegan in your menu?", 
+        "I am vegan.", 
+        "Do you also have vegan food?", 
+        "vegan", 
+        "is this restaurant vegan", 
+        "Do you guys use vegetables?",
+        "sabzi k items hain?",
+        "sabzi?",
+        "is this place vegan"],
+        
+        "responses": ["we provide sides with our stakes as vegeies \n potatoes \n broclie \n mashrooms",
+                "Tomatoes in Burgers"
+        ]
+},
+
+{       
+        "tag": "recipe_enquiry",
+
+        "patterns": ["Could you tell me more about recipe of this dish?", 
+        "What is the recipe of this dish?", 
+        "what are the ingredients of this dish?", 
+        "Whats your recipe",
+        "What your technique?",
+        "Tell me the dish?",
+        "ingredients ?",
+        "Receipe?",
+        "Whtas the technique?",
+        "whats the dish?",
+        "what is the receipe?",
+        "khanay ki receipe kya h?",
+        "khana banane ki technique kya h?",
+        "burger kese banate hain?",
+        "how do you guys make burgers?",
+        "burgers mein kya kya dala h?",
+        "tell me the recipe of burgers",
+        "how do you guys make steaks?",
+        "steaks mein kya kya dala h?",
+        "tell me the recipe of steaks",
+        "how do you guys make pizza?",
+        "pizza mein kya kya dala h?",
+        "tell me the recipe of  pizza",
+        "how do you guys make sandwich?",
+        "sandwich? mein kya kya dala h?",
+        "tell me the recipe of  sandwich?",
+        "how do you guys make coffee?",
+        "how do you guys make burgers?",
+        "how do you guys make steaks?",
+        "how do you guys make pizzas?",
+        "how do you guys make omelette?"
+        ],
+        
+        "responses": ["we do not disclose our dishes/recepies"]
+},
+
+{       
+        "tag": "suggest",
+
+        "patterns": ["what do you recommend?",
+        "do you have any suggestions",
+        "please suggest something",
+        "why don't you recommend me a dish", 
+        "help me choose what to order", 
+        "Surprise me!", 
+        "Do you have any special recommendations for me?", 
+        "What do you suggest?", 
+        "what is your suggestion", 
+        "what is a must try", 
+        "what should i try", 
+        "what should i eat?", 
+        "tell me what to order", 
+        "tell me what i should buy", 
+        "recommend me a dish", 
+        "suggest me a dish",
+        "what do you like?",
+        "suggest something?",
+        "Recommend something?",
+        "anything interesting?",
+        "your best food?",
+        "ye btao khane mein kya acha h?",
+        "kch recommend kro yr?",
+        "recomendation tu do yr?",
+        "kya cheez achi h?",
+        "special dishes hain?",
+        "whats special?",
+        "kya khana chahiye?",
+        "best khanay ki cheez kya h?",
+        "kya order krna chahiye?",
+        "what should we ordeR?",
+        "What you are known for?",
+        "mashooor khana?",
+        "kis wja se jane jatay hain?",
+        "best khana konsa h?",
+        "best dish konsi h?",
+        "kis waja se mashoor hain?"
+],
+        
+        "responses": ["We have the best Burgers",
+        "you can try our nalli biryani its very delicious",
+        "please try our Steaks they are very delicious",
+        "you can try our Edith Special Burger ",
+        "you can try our Edith Double Decker ",
+        "you can try our Sandwich By Cafe Edith ",
+        "our Burger chicken is very ummy"]
+},
+
+{   
+        "tag": "general",
+
+        "patterns": ["okay",
+        "sure",
+        "cool",
+        "hmm", 
+        "fine", 
+        "thanks", 
+        "uhuh"],
+    
+        "responses": [":)", 
+        "Glad to serve you!", 
+        "Happy to help!", 
+        "Always happy to assist you!"]
+
+},
+
+{       
+        "tag": "delivery",
+
+        "patterns": ["is home delivery available ",
+        "Can u guys deliver at home?",
+        "home delivery?",
+        "where do you guys deliver?",
+        "delivery?",
+        "what are the charges for home delivery?",
+        "how much for home delivery?",
+        "how much its gonna be for home delivery?",
+        "delivery charges?",
+        "ape log delivery krtay hain?",
+        "apke mass delivery krane ki saholat mujood h?",
+        "kya ape log ghr per de kr jaskte hain?",
+        "kitne paise lagenge delivery k?",
+        "kitna time lagega delivery mein?",
+        "how much time it will take to deliver?",
+        "delviery mein kitna time lagega?",
+        "khana pohochane mein kinta time lagega?",
+        "kitna time lagega khanay mein?",
+        "are you providing home delivery ",
+        "home delivery ",
+        "home delivery available hai ?",
+        "kia ap home delivery dete hai ?",
+        "kia mai apna order home delivery karskta hn"],
+
+        "responses": ["yes its available \\ g hamare han delivery service mujoood hai (Delivery-Time Will be According to your Location)",
+        "yes its available \\ ji han hum home delivery karte hai (Delivery-Time Will be According to your Location)"]
+
+},
+
+{       
+        "tag": "online order",
+
+        "patterns": [
+                "how to place food online",
+        "can i place order online?",
+        "Do you accept online orders?",
+        "Is there any method to place food online",
+        "Online Orders?",
+        "Can I place order online?",
+        "How can i Place ordeR?",
+        "OrdeR?",
+        "Online Order?",
+        "How do I order?",
+        "How Can I place ordeR?",
+        "How Can i order?",
+        "Order Facility?",
+        "Main order place krskta hon?",
+        "order place hoskta h?",
+        "order kese hota h?",
+        "Order kese hoga?",
+        "order kahan se hga?",
+        "order kese krun online?",
+        "kese hga ordeR?",
+        "order kidhr se krein?",
+        "online food order karsakta hain kia?",
+        "main online order kaise place karun?"],
+
+        "responses": [
+                "Yes you can place order by following this link https://www.foodpanda.pk/"
+        ]
+},
+
+{       
+        "tag": "Promotion and discount",
+
+        "patterns": ["Aap ko koi current promotion ya discount hai ke nahi?",
+        "Kya aap students ya military personnel ke liye discount provide karte hain?",
+        "Kya aap loyalty program ya rewards program offer karte hain?",
+        "Kya aap large groups ya parties ke liye koi deals ya discounts provide karte hain?",
+        "Kya aap online orders ya pickup orders ke liye koi discounts provide karte hain?",
+        "Kya aap ko koi coupons ya promo codes hain jo main use kar sakun?",
+        "Kya aap first-time customers ke liye koi discounts provide karte hain?",
+        "Kya aap repeat customers ke liye koi discounts offer karte hain?",
+        "Kya aap dining in ya bar par khana khanay ke liye koi discounts provide karte hain?",
+        "Kya aap app ya website se order karne ke liye koi discounts offer karte hain?",
+        "Kya aap cash ya debit card se payment karne ke liye koi discount provide karte hain?",
+        "Kya aap senior citizens ya disabilities ke liye koi discounts provide karte hain?",
+        "Kya aap early bird ya late night dining ke liye koi discounts provide karte hain?",
+        "Kya aap email list par subscribe ya social media par follow karne ke liye koi discounts offer karte hain?",
+        "Kya aap special occasions ya holidays ke liye koi discounts provide karte hain?",
+        "Kya aap certain amount ya spending certain amount ke liye koi discounts offer karte hain?",
+        "Kya aap certain number of items ya limited menu se choose karne ke liye koi discount provide karte hain?",
+        "Kya aap certain payment method use karne ke liye koi discounts offer karte hain?",
+        "Kya aap advance mein order ya pre-pay karne ke liye koi discounts available hain?",
+        "Kya aap referrals ya new customers bring karne ke liye koi discounts offer karte hain?",
+        "Kya aap gift cards ya gift certificates purchase karne ke liye koi discounts provide karte hain?",
+        "Kya aap private event ya party book karne ke liye koi discounts offer karte hain?",
+        "Kya aap online table ya reservation book karne ke liye koi discount provide karte hain?",
+        "Kya aap loyalty ya rewards program join karne ke liye koi discounts available hain?",
+        "Kya aap third-party website ya app se table ya reservation book karne ke liye koi discounts available hain?",
+        "Kya aap certain delivery service use ya certain app se order karne ke liye koi discounts offer karte hain?",
+        "Kya aap certain type of food ya drink order karne ke liye koi discount provide karte hain?",
+        "Kya aap certain event ya promotion attend karne ke liye koi discounts",
+        "any discount available ?",
+        "can i get discount on my order ",
+        "is there any deals available ",
+        "kia mhuje discount milega ",
+        "deals hai apke pass ?",
+        "any deals available ?",
+        "kya apke pass koi deal chal rhi h?",
+        "deals batayen ?"],
+
+        "responses": [
+                "Sorry! We Dont have Any Discounts Or Deals Available!!!"
+        ]
+},
+
+{
+        "tag":"deliveryy",
+        
+        "patterns":[
+                "kya mere area mein delivery possible h?",
+                "Do you offer delivery?",
+        "What is your delivery range?",
+        "How do I place an order for delivery?",
+        "What are your delivery fees?",
+        "Do you offer contactless delivery?",
+        "What are your delivery hours?",
+        "Do you offer same-day delivery?",
+        "What is your policy for late or missed deliveries?",
+        "Do you offer delivery through a third-party service?",
+        "Can I place an order for delivery through your app or website?",
+        "Do you offer delivery to residential or commercial addresses?",
+        "Can I track my delivery online?",
+        "Do you offer delivery to specific areas or neighborhoods?",
+        "Can I customize my order for delivery?",
+        "Do you offer delivery for large orders or catering events?",
+        "What is your policy for order minimums or maximums for delivery?",
+        "Do you offer delivery for alcohol or other age-restricted items?",
+        "What are your payment options for delivery orders?",
+        "Do you offer delivery for breakfast, lunch, or dinner?",
+        "Can I place a delivery order in advance or schedule a specific delivery time?",
+        "Do you offer delivery for special dietary needs or allergies?",
+        "What is your policy for substitutions or modifications on delivery orders?",
+        "Do you offer delivery for items not listed on your menu?",
+        "What is your policy for cancellations or changes to delivery orders?",
+        "Do you offer delivery for party platters or tray servings?",
+        "What is your policy for returning or exchanging items from a delivery order?",
+        "Do you offer delivery for gift cards or gift certificates?",
+        "Do you offer delivery for holiday or special occasion items?",
+        "Do you offer delivery for flowers or other gift items?",
+        "Do you offer delivery for catering or party supplies?"],
+
+        "responses": [
+                "Yes we Deliver All accross The CITY..."]
+},
+
+{       
+        "tag": "payments",
+
+        "patterns": [
+                "What forms of payment do you accept?",
+        "Do you accept credit or debit cards?",
+        "Do you accept mobile payments or digital wallets?",
+        "Do you accept cash?",
+        "Do you accept checks?",
+        "Do you accept gift cards or gift certificates?",
+        "Do you accept prepaid cards or vouchers?",
+        "Do you accept foreign currency?",
+        "Do you have a minimum or maximum amount for card payments?",
+        "Do you charge any fees for card payments?",
+        "Do you have a minimum or maximum amount for cash payments?",
+        "Do you have a policy for large bills or change?",
+        "Do you offer any discounts or promotions for certain payment methods?",
+        "Can I split the bill or make separate payments?",
+        "Can I pay for my order online or through your app?",
+        "Can I pay for my order in advance or make a deposit?",
+        "Do you offer any loyalty or rewards programs for payment?",
+        "Do you offer any payment plans or installments?",
+        "Do you accept payments through third-party services or apps?",
+        "Do you offer any discounts or promotions for paying in cash?",
+        "Do you accept payments through mail or phone?",
+        "Do you accept payments through your website or online ordering system?",
+        "Do you offer any discounts or promotions for paying with a gift card or gift certificate?",
+        "Do you accept payments through a billing or invoicing system?",
+        "Do you accept payments through a purchasing or procurement system?",
+        "Do you offer any discounts or promotions for paying with a prepaid card or voucher?",
+        "Do you accept payments through a subscription or membership program?",
+        "Do you offer any discounts or promotions for paying with a foreign currency?",
+        "Do you offer any discounts or promotions for paying with a check?",
+        "Do you accept payments through a financing or lending program?","Do you take credit cards?", 
+        "Do you accept Mastercard?", 
+        "Are you cash only?",
+        "cash or card",
+        "payment?", 
+        "whats the payment method?",
+        "do you guys accept credit cards?",
+        "do you take cash?",
+        "how can i pay you?",
+        "how can i pay?",
+        "how do i pay for my food?",
+        "payment kese hogi?",
+        "payment k kon kon se tareqe hain?",
+        "paisay kese dene hain?",
+        "how do we make payments?",
+        "bill kese pay hga?",
+        "bill pay krna h",
+        "bill kese lenge?",
+        "kya ape log card accept krte hain?",
+        "kya apke pass card hai?",
+        "kya ape bill cash mein lete hain?",
+        "kya mein card se pay krskta hon?",
+        "bill kese ada hga?",
+        "kya mein cash on delivery per pay krstkta hon hon?",
+        "cash on delivery available ?",
+        "do you guys have services for cash on delivery?",
+        "is cash on delivery is available ?",
+        "are you accepting card"],
+
+        "responses": [
+                "We accept VISA(card) and Cash only \\ hum log payment paisay ya card se lete hain (Cash on Delivery is available for Home Deliveries!!!)", 
+                "we acccept cash n card \\ ape apna bill paisay ya bank k card se ada krskte hain. (Cash on Delivery is available for Home Deliveries!!!)"]
+},
+
+{       
+        "tag": "Reservation",
+
+        "patterns": [
+        "Do you accept reservations?",
+        "Book a table",
+        "Can I book a table?", 
+        "I want to book a table", 
+        "Book seat", 
+        "I want to book a seat", 
+        "Can I book a seat?", 
+        "Could you help me book a table", 
+        "Can I reserve a seat?", 
+        "I need a reservation", 
+        "Can you help me with a reservation", 
+        "Can I book a reservation", 
+        "Can i have a table?", 
+        "Help me reserve a table", 
+        "Kya table book hojati h?",
+        "book table",
+        "How do I make a reservation?",
+        "What is your reservation policy?",
+        "Do you have any availability for tonight?",
+        "Do you have any availability for a party of four at 7 PM?",
+        "Do you have any availability for a private event?",
+        "Do you have any availability for outdoor seating?",
+        "Do you have any availability for a specific date or time?",
+        "Do you have any availability for a special occasion or holiday?",
+        "Do you have any availability for a large group or party?",
+        "Can I make a reservation for the bar area or lounge?",
+        "Can I make a reservation for the patio or outdoor dining area?",
+        "Do you have any availability for a private room or event space?",
+        "Can I make a reservation for a specific table or location?",
+        "Do you have any availability for a special menu or tasting event?",
+        "Do you have any availability for a special occasion or holiday dinner?",
+        "Can I make a reservation for a set menu or prix fixe meal?",
+        "Do you have any availability for a wine dinner or pairing event?",
+        "Can I make a reservation for a birthday or anniversary celebration?",
+        "Do you have any availability for a business or corporate event?",
+        "Can I make a reservation for a live music or entertainment event?",
+        "Do you have any availability for a special theme night or event?",
+        "Can I make a reservation for a private cooking class or demo?",
+        "Do you have any availability for a special dinner or menu featuring a celebrity chef?",
+        "Can I make a reservation for a special event or promotion at the bar or lounge?",
+        "Do you have any availability for a tasting menu or culinary event featuring a specific cuisine or theme?",
+        "Can I make a reservation for a private wine tasting or pairing event?",
+        "Do you have any availability for a special event or promotion featuring a specific type of food or drink?",
+        "Can I make a reservation for a private cocktail class or demo?",
+        "Do you have any availability for a special event or promotion featuring a specific type of entertainment or activity?",
+        "Can I make a reservation for a private dinner or cooking class with the chef?",
+        "Do you have any availability for a special event or promotion featuring a specific type of decor or atmosphere?",
+        "Can I make a reservation for a private wine dinner or pairing event with a sommelier?",
+        "Do you have any availability for a special event or promotion featuring a specific type of music or genre?",
+        "Can I make a reservation for a private cocktail making class or demo with a mixologist?",
+        "Do you have any availability for a special event or promotion featuring a specific type of art or entertainment?",
+        "Can I make a reservation for a private event or party with custom catering or menu options?",
+        "Do you have any availability for a special","Aap reservations accept karte hain ke nahi?",
+        "Main reservation kaise karun?",
+        "Aap ke reservation ke liye koi policy hai ke nahi?",
+        "Aaj raat ke liye koi availability hai ke nahi?",
+        "7 baje ke liye 4 log ke liye koi availability hai ke nahi?",
+        "Private event ke liye koi availability hai ke nahi?",
+        "Outdoor seating ke liye koi availability hai ke nahi?",
+        "Specific date ya time ke liye koi availability hai ke nahi?",
+        "Special occasion ya holiday ke liye koi availability hai ke nahi?",
+        "Large group ya party ke liye koi availability hai ke nahi?",
+        "Kya main bar area ya lounge ke liye reservation kar sakta hoon?",
+        "Kya main patio ya outdoor dining area ke liye reservation kar sakta hoon?",
+        "Private room ya event space ke liye koi availability hai ke nahi?",
+        "Kya main specific table ya location ke liye reservation kar sakta hoon?",
+        "Special menu ya tasting event ke liye koi availability hai ke nahi?",
+        "Special occasion ya holiday dinner ke liye koi availability hai ke nahi?",
+        "Kya main set menu ya prix fixe meal ke liye reservation kar sakta hoon?",
+        "Wine dinner ya pairing event ke liye koi availability hai ke nahi?",
+        "Birthday ya anniversary celebration ke liye koi availability hai ke nahi?",
+        "Business ya corporate event ke liye koi availability hai ke nahi?",
+        "Live music ya entertainment event ke liye koi availability hai ke nahi?",
+        "Special theme night ya event ke liye koi availability hai ke nahi?",
+        "Private cooking class ya demo ke liye koi availability hai ke nahi?",
+        "Celebrity chef ke sath special dinner ya menu ke liye koi availability hai ke nahi?",
+        "Bar ya lounge ke liye special event ya promotion ke liye koi availability hai ke nahi?",
+        "Specific cuisine ya theme ke sath tasting menu ya culinary event ke liye koi availability hai ke nahi?",
+        "Private wine tasting ya pairing event ke liye koi availability hai ke nahi?",
+        "Specific type of food ya drink ke sath special event ya promotion ke liye koi availability hai ke nahi?",
+        "Private cocktail class ya demo ke liye koi availability hai ke nahi?",
+        "Specific type of entertainment ya activity ke sath special event ya promotion ke liye koi availability hai ke nahi?",
+        "Chef ke sath private dinner ya cooking class ke liye koi availability hai ke nahi?","Aap reservations accept karte hain ke nahi?"
+        ,"Main reservation kaise karun?",
+        "Aap ka reservation policy kya hai?",
+        "Aap ke paas aaj raat ke liye koi availability hai ke nahi?",
+        "Aap ke paas 7 PM par chaar logon ke liye koi availability hai ke nahi?",
+        "Aap ke paas private event ke liye koi availability hai ke nahi?",
+        "Aap ke paas outdoor seating ke liye koi availability hai ke nahi?",
+        "Aap ke paas specific date ya time ke liye koi availability hai ke nahi?",
+        "Aap ke paas special occasion ya holiday ke liye koi availability hai ke nahi?",
+        "Aap ke paas large group ya party ke liye koi availability hai ke nahi?",
+        "Kya main bar area ya lounge ke liye reservation kar sakta hoon?",
+        "Kya main patio ya outdoor dining area ke liye reservation kar sakta hoon?",
+        "Aap ke paas private room ya event space ke liye koi availability hai ke nahi?",
+        "Kya main specific table ya location ke liye reservation kar sakta hoon?",
+        "Aap ke paas special menu ya tasting event ke liye koi availability hai ke nahi?",
+        "Aap ke paas special occasion ya holiday dinner ke liye koi availability hai ke nahi?",
+        "Kya main set menu ya prix fixe meal ke liye reservation kar sakta hoon?",
+        "Aap ke paas wine dinner ya pairing event ke liye koi availability hai ke nahi?",
+        "Kya main birthday ya anniversary celebration ke liye reservation kar sakta hoon?",
+        "Aap ke paas business ya corporate event ke liye koi availability hai ke nahi?",
+        "Kya main live music ya entertainment event ke liye reservation kar sakta hoon?",
+        "Aap ke paas special theme night ya event ke liye koi availability hai ke nahi?",
+        "Kya main private cooking class ya demo ke liye reservation kar sakta hoon?",
+        "Aap ke paas celebrity chef ke liye special dinner ya menu ke liye koi availability hai ke nahi?",
+        "Kya main bar ya lounge par special event ya promotion ke liye reservation kar sakta hoon?",
+        "Aap ke paas specific cuisine ya theme ke liye tasting menu ya culinary event ke liye koi availability hai ke nahi?",
+        "Kya main private wineTasting ya pairing event ke liye reservation kar sakta hoon?",
+        "Aap ke paas specific type ka food ya drink ke liye special event ya promotion ke liye koi availability hai ke nahi",
+        "Aap reservations accept karain ga ke nahi?",
+        "Main reservation kaise karun?",
+        "Aap ka reservation policy kya hai?",
+        "Aap ke paas aaj raat ke liye koi availability hai ke nahi?",
+        "Aap ke paas 7 PM par chaar logon ke liye koi availability hai ke nahi?",
+        "Aap ke paas private event ke liye koi availability hai ke nahi?",
+        "Aap ke paas outdoor seating ke liye koi availability hai ke nahi?",
+        "Aap ke paas specific date ya time ke liye koi availability hai ke nahi?",
+        "Aap ke paas special occasion ya holiday ke liye koi availability hai ke nahi?",
+        "Aap ke paas large group ya party ke liye koi availability hai ke nahi?",
+        "Kya main bar area ya lounge ke liye reservation kar sakta hoon?",
+        "Kya main patio ya outdoor dining area ke liye reservation kar sakta hoon?",
+        "Aap ke paas private room ya event space ke liye koi availability hai ke nahi?",
+        "Kya main specific table ya location ke liye reservation kar sakta hoon?",
+        "Aap ke paas special menu ya tasting event ke liye koi availability hai ke nahi?",
+        "Aap ke paas special occasion ya holiday dinner ke liye koi availability hai ke nahi?",
+        "Kya main set menu ya prix fixe meal ke liye reservation kar sakta hoon?",
+        "Aap ke paas wine dinner ya pairing event ke liye koi availability hai ke nahi?",
+        "Kya main birthday ya anniversary celebration ke liye reservation kar sakta hoon?",
+        "Aap ke paas business ya corporate event ke liye koi availability hai ke nahi?",
+        "Kya main live music ya entertainment event ke liye reservation kar sakta hoon?",
+        "Aap ke paas special theme night ya event ke liye koi availability hai ke nahi?",
+        "Kya main private cooking class ya demo ke liye reservation kar sakta hoon?",
+        "Aap ke paas celebrity chef ke liye special dinner ya menu ke liye koi availability hai ke nahi?",
+        "Kya main bar ya lounge par special event ya promotion ke liye reservation kar sakta hoon?",
+        "Aap ke paas specific cuisine ya theme ke liye tasting menu ya culinary event ke liye koi availability hai ke nahi?",
+        "Kya main private wineTasting ya pairing event ke liye reservation kar sakta hoon?",
+        "Aap ke paas specific type ka food ya drink ke liye special event ya promotion ke liye koi availability hai ke nahi",
+        "Do you accept reservations for tables?",
+        "How do I make a reservation for a table?",
+        "Do you have any availability for a table for tonight?",
+        "Do you have any availability for a table for a party of four at 7 PM?",
+        "Can I request a specific table or location when making a reservation?",
+        "Do you have any availability for a table with outdoor seating?",
+        "Do you have any availability for a table for a specific date or time?",
+        "Do you have any availability for a table for a special occasion or holiday?",
+        "Do you have any availability for a table for a large group or party?",
+        "Can I make a reservation for a table in the bar area or lounge?",
+        "Can I make a reservation for a table on the patio or outdoor dining area?",
+        "Do you have any availability for a table in a private room or event space?",
+        "Do you have any availability for a table with a special menu or tasting event?",
+        "Do you have any availability for a table for a special occasion or holiday dinner?",
+        "Can I make a reservation for a table with a set menu or prix fixe meal?",
+        "Do you have any availability for a table for a wine dinner or pairing event?",
+        "Can I make a reservation for a table for a birthday or anniversary celebration?",
+        "Do you have any availability for a table for a business or corporate event?",
+        "Can I make a reservation for a table for a live music or entertainment event?",
+        "Do you have any availability for a table for a special theme night or event?"],
+
+        "responses": [
+                "we dont book seats in advance",
+                "for booking you need to visit the branch"]
+    }
+
+
+]}
